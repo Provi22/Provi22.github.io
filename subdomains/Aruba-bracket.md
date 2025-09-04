@@ -9,7 +9,7 @@ permalink: /aruba/
 This was my first "big" project, I was commissioned to create a new and improved wall supports for my school's wifi access points, which were 52 in total, scattered throughout the facility.
 The original wall supports were not used as intended by the manufacturer, as they were designed so that the cables ran from the inside of the wall directly to the AP, but the guy who installed the system decided to clamp two of these thin wall supports against each other and make a hole on the side, through which he would run the cables (Ethernet POE, with RJ45 connectors). 
 These APs get very hot, as they run non-stop, and because of this the plastic wall supports have become very brittle and started to break. At the point where I started working on this project, 10 out of 52 APs (~19.2%) had broken supports, and at a rate of 4 wall supports breaking every year (~7.7%, data provided by the institution) we were expecting to replace them all sooner or later. We tried to buy the wall supports, but since they are no longer in production, and the only place that still sold them priced them at 8€ per piece, we decided to put the matter into our own hands and find an alternative. 
-(At the time of writing this, I found this awesome design by [fsweetser]([url](https://www.thingiverse.com/thing:4947236)) of the original mounting bracket, go check it out!)
+(At the time of writing this, I found this awesome design by [fsweetser](https://www.thingiverse.com/thing:4947236) of the original mounting bracket, go check it out!)
 
 ---
 ## My solution:
@@ -65,4 +65,4 @@ Here I've included the downloads for the STL file (Straight to 3D printing) and 
 
 <a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download> Fusion 360 file Download </a>
 
-This design is licensed under the [GNU General Public License v3.0 (GPLv3)]([url](https://www.gnu.org/licenses/gpl-3.0.en.html))
+This design is licensed under the [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html)
