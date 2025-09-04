@@ -50,5 +50,7 @@ The design has gone through several yet small revisions (17 to be exact), althou
 # Downloads
 I wanted to make this project open-source so that any institution with the same specific problem can skip the design and tinkering part and go straight to printing and replacing the wall mounts.
 Here I've included the downloads for the STL file (Straight to 3D printing) and the Fusion 360 file (For further modifications).
+
 <a href="../assets/aruba/Aruba_205H_wall_support.stl" class="button" download> STL Download </a>
+
 <a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download> Fusion 360 file Download </a>
