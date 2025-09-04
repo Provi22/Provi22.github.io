@@ -8,7 +8,8 @@ permalink: /aruba/
 ## The problem:
 This was my first "big" project, I was commissioned to create a new and improved wall supports for my school's wifi access points, which were 52 in total, scattered throughout the facility.
 The original wall supports were not used as intended by the manufacturer, as they were designed so that the cables ran from the inside of the wall directly to the AP, but the guy who installed the system decided to clamp two of these thin wall supports against each other and make a hole on the side, through which he would run the cables (Ethernet POE, with RJ45 connectors). 
-These APs get very hot, as they run non-stop, and because of this the plastic wall supports have become very brittle and started to break. At the point where I started working on this project, could be shortened to "10 out of 52 APs (~19.2%) had broken supports., and at a rate of 4 wall supports breaking every year (~7.7%, data provided by the institution) we were expecting to replace them all sooner or later. We tried to buy the wall supports, but since they are no longer in production, and the only place that still sold them priced them at 8€ per piece., we decided to put the matter into our own hands and find an alternative.
+These APs get very hot, as they run non-stop, and because of this the plastic wall supports have become very brittle and started to break. At the point where I started working on this project, 10 out of 52 APs (~19.2%) had broken supports, and at a rate of 4 wall supports breaking every year (~7.7%, data provided by the institution) we were expecting to replace them all sooner or later. We tried to buy the wall supports, but since they are no longer in production, and the only place that still sold them priced them at 8€ per piece, we decided to put the matter into our own hands and find an alternative. 
+(At the time of writing this, I found this awesome design by [fsweetser]([url](https://www.thingiverse.com/thing:4947236)) of the original mounting bracket, go check it out!)
 
 ---
 ## My solution:
@@ -27,15 +28,24 @@ Finally, I hollowed out areas that didn’t contribute to structural integrity o
 
 To put the design to the test, I first 3D printed several iterations of the connectors up until they clicked right.
 
-(insert images of connectors here)
+<img src="../assets/aruba/hooks1.jpg" alt="hooks1" width="400">
+
+<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
+
+<img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400">
+
+<img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Next up, I printed two face plates to check for the alignment of the connectors, on the first one I had to trim the square area because I didn't account for it.
 
-(insert images of  here)
+<img src="../assets/aruba/hooks3.jpg" alt="hooks3" width="400">
+
+<img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
+
 
 Ultimately, I printed a whole prototype on PLA, on the school's Ender 5.
 
-(insert image of 1st prototype here)
+(Insert image of final product)
 
 Here are some pictures of the design inside of Fusion 360 and the technical drawing I made (this one being a bit outdated) for a presentation to the school's headteacher, in which I got approval for continuing with the project.
 
