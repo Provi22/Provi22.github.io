@@ -28,19 +28,15 @@ Finally, I hollowed out areas that didn’t contribute to structural integrity o
 
 To put the design to the test, I first 3D printed several iterations of the connectors up until they clicked right.
 
+V1:
 <img src="../assets/aruba/hooks1.jpg" alt="hooks1" width="400">
 
-<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
-
-<img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400">
-
-<img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
+V2: 
+<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400"> <img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Next up, I printed two face plates to check for the alignment of the connectors, on the first one I had to trim the square area because I didn't account for it.
 
-<img src="../assets/aruba/hooks3.jpg" alt="hooks3" width="400">
-
-<img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
+<img src="../assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
 
 
 Ultimately, I printed a whole prototype on PLA, on the school's Ender 5.
