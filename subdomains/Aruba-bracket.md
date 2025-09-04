@@ -32,7 +32,9 @@ V1:
 <img src="../assets/aruba/hooks1.jpg" alt="hooks1" width="400">
 
 V2: 
-<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400"> <img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
+<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
+
+<img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Next up, I printed two face plates to check for the alignment of the connectors, on the first one I had to trim the square area because I didn't account for it.
 
