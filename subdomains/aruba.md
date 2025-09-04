@@ -47,12 +47,12 @@ Ultimately, I printed a whole prototype on PLA, on the school's Ender 5.
 
 Here are some pictures of the design inside of Fusion 360 and the technical drawing I made (this one being a bit outdated) for a presentation to the school's headteacher, in which I got approval for continuing with the project.
 
+![drawing](../assets/aruba/fusion-aruba.png)
+
 ![drawing](../assets/aruba/technical_drawing.png)
 
 
 The design has gone through several yet small revisions (17 to be exact), although the design philosophy has remained the same. Currently we have switched to ASA instead of PLA, as the first prototypes which were installed would start to melt on the first month of use. ASA provides a higher melting temperature which is great for this project. We have also upgraded our 3D Printer to the Bambulab X1 Carbon, which has resulted in a big quality improvement and fewer print failures.
-
-(insert image of final product here)
 
 ---
 # Downloads
