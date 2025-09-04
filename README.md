@@ -3,4 +3,9 @@
 
 <a href="/about/" class="button"> About me</a>
 
-<a href="/aruba/" class="button"> Aruba 205H wall bracket</a>
+---
+# Projects:
+
+<a href="/aruba/" class="button"> Aruba 205H Wall Bracket</a>
+
+<a href="/rc/" class="button"> 3D Printed RC Car</a>
