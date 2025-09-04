@@ -64,3 +64,5 @@ Here I've included the downloads for the STL file (Straight to 3D printing) and 
 <a href="../assets/aruba/Aruba_205H_wall_support.stl" class="button" download> STL Download </a>
 
 <a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download> Fusion 360 file Download </a>
+
+This design is licensed under the [GNU General Public License v3.0 (GPLv3)]([url](https://www.gnu.org/licenses/gpl-3.0.en.html))
