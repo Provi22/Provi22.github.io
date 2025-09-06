@@ -26,8 +26,6 @@ I couldn't rebuild this second engine. It's a 2.4 liter, 18 valve SOHC V6, with 
 
 <img src="../assets/engines/M112_junkyard.jpg" alt="M112_junkyard" width="400"> <img src="../assets/engines/M112.jpg" alt="M112" width="425">
 
-<img src="../assets/engines/M112_oil_pan.jpg" alt="M112_oil_pan" width="400">
-
 ![M112_Finished](../assets/engines/M112_finished.jpg)
 
 
@@ -39,7 +37,8 @@ When I finished coding it (with some help from some people on the Engine Sim Dis
 
 ---
 
-## Old tool collectionOne afternoon, my grandfather showed me his collection of old tools and told me that he wanted me to keep them, explaining that some of them go back as far as four generations before me, which makes them a fascinating and meaningful piece of family history I'm proud to take on.
+## Old tool collection
+One afternoon, my grandfather showed me his collection of old tools and told me that he wanted me to keep them, explaining that some of them go back as far as four generations before me, which makes them a fascinating and meaningful piece of family history I'm proud to take on.
 
 ![Tool_collection](../assets/engines/Tools6.jpg)
 
