@@ -5,6 +5,8 @@ permalink: /aruba/
 
 # Aruba 205H AP Wall Support
 ---
+_<a href="/sm/" class="button"> Read the summarized version here</a>_
+---
 ## The problem:
 This was my first "big" project, I was commissioned to create a new and improved wall supports for my school's wifi access points, which were 52 in total, scattered throughout the facility.
 The original wall supports were not used as intended by the manufacturer, as they were designed so that the cables ran from the inside of the wall directly to the AP, but the guy who installed the system decided to clamp two of these thin wall supports against each other and make a hole on the side, through which he would run the cables (Ethernet POE, with RJ45 connectors). 
