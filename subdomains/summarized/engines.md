@@ -1,6 +1,6 @@
 ---
 title: "Engines"
-permalink: /engines/
+permalink: /engines/sm/
 ---
 
 # Engine rebuilds and teardowns
