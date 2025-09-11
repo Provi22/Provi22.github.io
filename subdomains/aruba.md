@@ -6,7 +6,7 @@ permalink: /aruba/
 # Aruba 205H AP Wall Support
 ---
 
-<a href="/sm/" class="button"> Read the summarized version here</a>
+<a href="/aruba/sm/" class="button"> Read the summarized version here</a>
 
 ---
 ## The problem:
