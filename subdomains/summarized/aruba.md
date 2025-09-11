@@ -5,7 +5,9 @@ permalink: /aruba/sm/
 
 # Aruba 205H AP Wall Support
 ---
+
 _<a href="/aruba/" class="button"> Read the extended version here</a>_
+
 ---
 ## The problem:
 I was tasked with creating improved wall supports for 52 Aruba 205H Access Points at my school. The original supports' plastic was brittle due to the APs overheating, therefore they had to be replaced before they all break. By the time I started, 10 supports (~19.2%) had broken, with ~7.7% failing each year. Since replacements were discontinued and overpriced (8€ each), we decided to design our own.  
