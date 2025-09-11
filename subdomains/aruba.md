@@ -5,7 +5,9 @@ permalink: /aruba/
 
 # Aruba 205H AP Wall Support
 ---
-_<a href="/sm/" class="button"> Read the summarized version here</a>_
+
+<a href="/sm/" class="button"> Read the summarized version here</a>
+
 ---
 ## The problem:
 This was my first "big" project, I was commissioned to create a new and improved wall supports for my school's wifi access points, which were 52 in total, scattered throughout the facility.
