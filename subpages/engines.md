@@ -41,16 +41,3 @@ I couldn't rebuild this second engine. It's a 2.4 liter, 18 valve SOHC V6, with 
 ## Engine Simulator
 I became obsessed with <a href="https://www.youtube.com/@AngeTheGreat" target="_blank" rel="noopener noreferrer">AngeTheGreat</a>'s Engine Simulator, and messing around with community-made engines, I couldn't find anyone who had made a proper representation of the Mazda MX-5 NA engine. So I decided to try to code it myself, it couldn't be so difficult, could it? (It kind of was, since I couldn't find any tutorials on how to code an engine on this simulator) Why the MX-5? Well, I just really like the car, and I wanted it to be my project car before they got outrageously expensive.
 When I finished coding it (with some help from some people on the Engine Sim Discord), and tweaked the engine's parameters and values I found online. Happy with the end result, I posted the engine to AngeTheGreat's Engine Sim website, <a href="https://catalog.engine-sim.parts/parts/852" rel="noopener noreferrer">engine-sim.parts</a>, where you can download it.
-
----
-
-## Old tool collection
-One afternoon, my grandfather showed me his collection of old tools and told me that he wanted me to keep them, explaining that some of them go back as far as four generations before me, which makes them a fascinating and meaningful piece of family history I'm proud to take on.
-
-![Tool_collection](../assets/engines/Tools6.jpg)
-
-<img src="../assets/engines/Tools1.jpg" alt="wrench" width="400"> <img src="../assets/engines/Tools2.jpg" alt="overall" width="400">
-
-![Leveler](../assets/engines/Tools4.jpg)
-
-<img src="../assets/engines/Tools5.jpg" alt="Sockets" width="400"> <img src="../assets/engines/Tools3.jpg" alt="clamp" width="400">
