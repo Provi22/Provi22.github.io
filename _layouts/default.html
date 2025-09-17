@@ -19,30 +19,32 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <!-- NAV BAR (added above Cayman banner) -->
+    <!-- NAV BAR -->
     <nav class="navbar">
-      <a href="{{ '/' | relative_url }}">Home</a>
+      <div class="nav-left">
+        <a href="{{ '/' | relative_url }}" class="brand">Home</a>
 
-      <div class="dropdown">
-        <a href="#" class="dropbtn">Section 1 ▼</a>
-        <div class="dropdown-content">
-          <a href="{{ '/section1/page1/' | relative_url }}">Page 1</a>
-          <a href="{{ '/section1/page2/' | relative_url }}">Page 2</a>
-          <a href="{{ '/section1/page3/' | relative_url }}">Page 3</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Section 1 ▼</a>
+          <div class="dropdown-content">
+            <a href="{{ '/section1/page1/' | relative_url }}">Page 1</a>
+            <a href="{{ '/section1/page2/' | relative_url }}">Page 2</a>
+            <a href="{{ '/section1/page3/' | relative_url }}">Page 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Section 2 ▼</a>
+          <div class="dropdown-content">
+            <a href="{{ '/section2/page1/' | relative_url }}">Page 1</a>
+            <a href="{{ '/section2/page2/' | relative_url }}">Page 2</a>
+          </div>
         </div>
       </div>
 
-      <div class="dropdown">
-        <a href="#" class="dropbtn">Section 2 ▼</a>
-        <div class="dropdown-content">
-          <a href="{{ '/section2/page1/' | relative_url }}">Page 1</a>
-          <a href="{{ '/section2/page2/' | relative_url }}">Page 2</a>
-        </div>
-      </div>
-
-      <div class="lang-switch">
-        <a href="{{ '/es/' | relative_url }}">ES</a> | 
-        <a href="{{ '/en/' | relative_url }}">EN</a>
+      <div class="nav-right">
+        <button id="lang-toggle">ES</button>
+        <button class="hamburger" id="hamburger">☰</button>
       </div>
     </nav>
 
@@ -76,8 +78,9 @@
       </footer>
     </main>
 
-    <!-- Mobile dropdown toggle script -->
+    <!-- Scripts -->
     <script>
+      // Dropdown toggle
       document.addEventListener("DOMContentLoaded", function() {
         const dropdowns = document.querySelectorAll(".dropdown .dropbtn");
         dropdowns.forEach(btn => {
@@ -93,7 +96,7 @@
           });
         });
 
-        // close if clicking outside
+        // close dropdowns if clicking outside
         window.addEventListener("click", function(e) {
           if (!e.target.matches(".dropbtn")) {
             document.querySelectorAll(".dropdown-content").forEach(menu => {
@@ -101,6 +104,43 @@
             });
           }
         });
+
+        // Hamburger toggle
+        const hamburger = document.getElementById("hamburger");
+        const navbar = document.querySelector(".navbar");
+        hamburger.addEventListener("click", function() {
+          navbar.classList.toggle("open");
+        });
+
+        // Language toggle
+        const langBtn = document.getElementById("lang-toggle");
+        langBtn.addEventListener("click", function() {
+          const currentUrl = window.location.pathname;
+          let newUrl;
+
+          if (currentUrl.includes("/es/") || currentUrl.endsWith("/es")) {
+            // Spanish → English
+            newUrl = currentUrl.replace(/\/es\/?$/, "/");
+            langBtn.textContent = "ES";
+          } else {
+            // English → Spanish
+            if (currentUrl.endsWith("/")) {
+              newUrl = currentUrl + "es/";
+            } else {
+              newUrl = currentUrl + "/es/";
+            }
+            langBtn.textContent = "EN";
+          }
+
+          window.location.href = newUrl;
+        });
+
+        // Initialize button label based on URL
+        if (window.location.pathname.includes("/es/") || window.location.pathname.endsWith("/es")) {
+          langBtn.textContent = "EN";
+        } else {
+          langBtn.textContent = "ES";
+        }
       });
     </script>
   </body>
