@@ -1,6 +1,6 @@
 /* Slimmer nav bar */
 .navbar {
-  background-color: #15688f;
+  background-color: #155996;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .navbar a:hover, .dropbtn:hover, #lang-toggle:hover, .hamburger:hover {
-  background-color: #154a8f;
+  background-color: #154d96;
 }
 
 .dropdown {
