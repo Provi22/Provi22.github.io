@@ -36,16 +36,3 @@ A 2.4L SOHC V6 with 3 valves and 2 spark plugs per cylinder. It looked fine apar
 
 ## Engine Simulator
 I created a Mazda MX-5 NA engine for <a href="https://www.youtube.com/@AngeTheGreat" target="_blank" rel="noopener noreferrer">AngeTheGreat</a>’s Engine Simulator, since none existed. After coding and fine-tuning with community help, I uploaded it to <a href="https://catalog.engine-sim.parts/parts/852" rel="noopener noreferrer">engine-sim.parts</a>.
-
----
-
-## Old tool collection
-My grandfather passed down his collection of old tools, some dating back four generations—a meaningful piece of family history I’m proud to preserve.
-
-![Tool_collection](../../assets/engines/Tools6.jpg)
-
-<img src="../../assets/engines/Tools1.jpg" alt="wrench" width="400"> <img src="../../assets/engines/Tools2.jpg" alt="overall" width="400">
-
-![Leveler](../../assets/engines/Tools4.jpg)
-
-<img src="../../assets/engines/Tools5.jpg" alt="Sockets" width="400"> <img src="../../assets/engines/Tools3.jpg" alt="clamp" width="400">
