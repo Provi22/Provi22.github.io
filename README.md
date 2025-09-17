@@ -1,5 +1,6 @@
 ---
 title: "Frontpage"
+permalink: /
 ---
 
 # _Welcome to my website!_
