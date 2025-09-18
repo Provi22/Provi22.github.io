@@ -67,4 +67,4 @@ Aquí incluyo las descargas para el archivo **STL** (directo a la impresión 3D)
 
 <a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download>Descarga el archivo de Fusion 360</a>
 
-_© 2024. Este trabajo está licenciado abiertamente via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>_
+_© 2024. Este trabajo está licenciado abiertamente via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>_
