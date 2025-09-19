@@ -1,6 +1,6 @@
 ---
 title: "Aruba"
-permalink: /aruba/es/
+permalink: /aruba-es/
 ---
 
 # Soporte de pared para Aruba 205H AP
