@@ -33,16 +33,16 @@ Finalmente, vacié las áreas que no aportaban a la integridad estructural del s
 Para probar el diseño, primero imprimí en 3D varias iteraciones de los conectores hasta que encajaron perfectamente.
 
 V1:
-<img src="../../assets/aruba/hooks1.jpg" alt="hooks1" width="400">
+<img src="{{ site.baseurl }}/assets/aruba/hooks1.jpg" alt="hooks1" width="400">
 
 V2: 
-<img src="../../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
+<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
 
-<img src="../../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
+<img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Lo siguiente que hice fue imprimir dos placas frontales para verificar la alineación de los conectores. En la primera, tuve que recortar la zona cuadrada porque no tuve en cuenta este hueco en el diseño inicial.
 
-<img src="../../assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
+<img src="../assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
 
 Por último, imprimí un prototipo completo en PLA, utilizando la Ender 5 del colegio.
 
@@ -63,8 +63,8 @@ El diseño ha pasado por varias pequeñas revisiones (17 para ser exactos), aunq
 Quería hacer este proyecto open-source para que cualquier institución con el mismo problema pueda saltarse la parte de diseño y ajustes, e ir directamente a la impresión y reemplazo de los soportes de pared.
 Aquí incluyo las descargas para el archivo **STL** (directo a la impresión 3D) y el archivo de Fusion 360 (para modificaciones adicionales).
 
-<a href="../../assets/aruba/Aruba_205H_wall_support.stl" class="button" download>Descarga el STL</a>
+<a href="../assets/aruba/Aruba_205H_wall_support.stl" class="button" download>Descarga el STL</a>
 
-<a href="../../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download>Descarga el archivo de Fusion 360</a>
+<a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download>Descarga el archivo de Fusion 360</a>
 
 _© 2024. Este trabajo está licenciado abiertamente via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>_
