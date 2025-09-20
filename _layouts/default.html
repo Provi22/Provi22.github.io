@@ -16,35 +16,8 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <!-- NAV BAR -->
-    <nav class="navbar">
-      <div class="nav-left">
-        <a href="{{ '/' | relative_url }}" class="brand">Home</a>
-
-        <div class="dropdown">
-          <a href="#" class="dropbtn">Projects ▼</a>
-          <div class="dropdown-content">
-            <a href="{{ '/aruba/' | relative_url }}">Aruba 205H Wall Bracket</a>
-            <a href="{{ '/engines/' | relative_url }}">Engine rebuilds and teardowns</a>
-            <a href="{{ '/rc/' | relative_url }}">3D Printed RC Car</a>
-            <a href="{{ '/future/' | relative_url }}">Future projects</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <a href="#" class="dropbtn">Unrelated ▼</a>
-          <div class="dropdown-content">
-            <a href="{{ '/about/' | relative_url }}">About me</a>
-            <a href="{{ '/links/' | relative_url }}">Useful links</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="nav-right">
-        <button id="lang-toggle">ES</button>
-        <button class="hamburger" id="hamburger">☰</button>
-      </div>
-    </nav>
+    <!-- Dynamic NAV BAR container -->
+    <nav id="navbar" class="navbar"></nav>
 
     <!-- Cayman banner -->
     <header class="page-header" role="banner">
@@ -79,93 +52,122 @@
     <!-- Scripts -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
+        let currentPath = window.location.pathname;
+        if (!currentPath.endsWith("/")) currentPath += "/";
+
+        const isSpanish = currentPath === "/es/" || currentPath.match(/\/[^/]+\/es\/$/);
+
+        const navbar = document.getElementById("navbar");
+
+        const navData = {
+          en: {
+            brand: "Home",
+            projects: "Projects ▼",
+            unrelated: "Unrelated ▼",
+            links: [
+              { text: "Aruba 205H Wall Bracket", href: "/aruba/" },
+              { text: "Engine rebuilds and teardowns", href: "/engines/" },
+              { text: "3D Printed RC Car", href: "/rc/" },
+              { text: "Future projects", href: "/future/" },
+              { text: "About me", href: "/about/" },
+              { text: "Useful links", href: "/links/" }
+            ]
+          },
+          es: {
+            brand: "Inicio",
+            projects: "Proyectos ▼",
+            unrelated: "No relacionado ▼",
+            links: [
+              { text: "Soporte de pared Aruba 205H", href: "/aruba/es/" },
+              { text: "Reconstrucción y desarme de motores", href: "/engines/es/" },
+              { text: "Coche RC impreso en 3D", href: "/rc/es/" },
+              { text: "Proyectos futuros", href: "/future/es/" },
+              { text: "Sobre mí", href: "/about/es/" },
+              { text: "Enlaces útiles", href: "/links/es/" }
+            ]
+          }
+        };
+
+        const lang = isSpanish ? "es" : "en";
+        const t = navData[lang];
+
+        // Build navbar HTML
+        navbar.innerHTML = `
+          <div class="nav-left">
+            <a href="${isSpanish ? '/es/' : '/'}" class="brand">${t.brand}</a>
+
+            <div class="dropdown">
+              <a href="#" class="dropbtn">${t.projects}</a>
+              <div class="dropdown-content">
+                <a href="${t.links[0].href}">${t.links[0].text}</a>
+                <a href="${t.links[1].href}">${t.links[1].text}</a>
+                <a href="${t.links[2].href}">${t.links[2].text}</a>
+                <a href="${t.links[3].href}">${t.links[3].text}</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#" class="dropbtn">${t.unrelated}</a>
+              <div class="dropdown-content">
+                <a href="${t.links[4].href}">${t.links[4].text}</a>
+                <a href="${t.links[5].href}">${t.links[5].text}</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-right">
+            <button id="lang-toggle">${isSpanish ? "EN" : "ES"}</button>
+            <button class="hamburger" id="hamburger">☰</button>
+          </div>
+        `;
+
+        // Language toggle logic (updated)
+        const langBtn = document.getElementById("lang-toggle");
+        langBtn.addEventListener("click", function () {
+          let newPath = currentPath;
+
+          if (isSpanish) {
+            // Spanish → English
+            newPath = newPath.replace(/\/es\/$/, "/"); // e.g. /aruba/es/ → /aruba/
+            newPath = newPath.replace(/^\/es\/$/, "/"); // root /es/ → /
+          } else {
+            // English → Spanish
+            if (newPath === "/") {
+              newPath = "/es/";
+            } else if (!newPath.endsWith("es/")) {
+              newPath += "es/";
+            }
+          }
+
+          window.location.href = newPath;
+        });
+
         // Dropdown toggle
-        document.querySelectorAll(".dropdown .dropbtn").forEach(btn => {
+        navbar.querySelectorAll(".dropdown .dropbtn").forEach(btn => {
           btn.addEventListener("click", function (e) {
             e.preventDefault();
             const content = this.nextElementSibling;
             content.classList.toggle("show");
-            document.querySelectorAll(".dropdown-content").forEach(menu => {
+            navbar.querySelectorAll(".dropdown-content").forEach(menu => {
               if (menu !== content) menu.classList.remove("show");
             });
           });
         });
 
-        // Close dropdowns when clicking outside
+        // Close dropdowns if clicking outside
         window.addEventListener("click", function (e) {
           if (!e.target.matches(".dropbtn")) {
-            document.querySelectorAll(".dropdown-content").forEach(menu => {
+            navbar.querySelectorAll(".dropdown-content").forEach(menu => {
               menu.classList.remove("show");
             });
           }
         });
 
-        // Hamburger menu toggle
+        // Hamburger toggle
         const hamburger = document.getElementById("hamburger");
-        const navbar = document.querySelector(".navbar");
         hamburger.addEventListener("click", function () {
           navbar.classList.toggle("open");
         });
-
-        // Normalize path
-        let currentPath = window.location.pathname;
-        if (!currentPath.endsWith("/")) currentPath += "/";
-
-        // Language detection
-        const isSpanish =
-          currentPath === "/es/" ||
-          currentPath.match(/\/[^/]+\/es\/$/);
-
-        const langBtn = document.getElementById("lang-toggle");
-        langBtn.textContent = isSpanish ? "EN" : "ES";
-
-        // Toggle between English <-> Spanish
-        langBtn.addEventListener("click", function () {
-          let newPath;
-          if (isSpanish) {
-            // Spanish → English
-            if (currentPath === "/es/") {
-              newPath = "/";
-            } else {
-              newPath = currentPath.replace(/\/es\/$/, "/");
-            }
-          } else {
-            // English → Spanish
-            if (currentPath === "/") {
-              newPath = "/es/";
-            } else {
-              newPath = currentPath + "es/";
-            }
-          }
-          window.location.href = newPath;
-        });
-
-        // Update navbar text and links if Spanish
-        if (isSpanish) {
-          document.querySelector(".brand").textContent = "Inicio";
-
-          const dropbtns = document.querySelectorAll(".dropbtn");
-          dropbtns[0].textContent = "Proyectos ▼";
-          dropbtns[1].textContent = "No relacionado ▼";
-
-          const links = document.querySelectorAll(".dropdown-content a");
-
-          const translatedLinks = [
-            { text: "Soporte de pared Aruba 205H", href: "/aruba/es/" },
-            { text: "Reconstrucción y desarme de motores", href: "/engines/es/" },
-            { text: "Coche RC impreso en 3D", href: "/rc/es/" },
-            { text: "Proyectos futuros", href: "/future/es/" },
-            { text: "Sobre mí", href: "/about/es/" },
-            { text: "Enlaces útiles", href: "/links/es/" }
-          ];
-
-          links.forEach((link, i) => {
-            if (translatedLinks[i]) {
-              link.textContent = translatedLinks[i].text;
-              link.href = translatedLinks[i].href;
-            }
-          });
-        }
       });
     </script>
   </body>
