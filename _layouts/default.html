@@ -10,10 +10,7 @@
     <meta name="theme-color" content="#155996">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <!-- Your custom stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
     {% include head-custom.html %}
   </head>
   <body>
@@ -81,23 +78,19 @@
 
     <!-- Scripts -->
     <script>
-      // Dropdown toggle
       document.addEventListener("DOMContentLoaded", function() {
-        const dropdowns = document.querySelectorAll(".dropdown .dropbtn");
-        dropdowns.forEach(btn => {
+        // Dropdowns
+        document.querySelectorAll(".dropdown .dropbtn").forEach(btn => {
           btn.addEventListener("click", function(e) {
             e.preventDefault();
             const content = this.nextElementSibling;
             content.classList.toggle("show");
-
-            // close others
             document.querySelectorAll(".dropdown-content").forEach(menu => {
               if (menu !== content) menu.classList.remove("show");
             });
           });
         });
 
-        // close dropdowns if clicking outside
         window.addEventListener("click", function(e) {
           if (!e.target.matches(".dropbtn")) {
             document.querySelectorAll(".dropdown-content").forEach(menu => {
@@ -106,7 +99,7 @@
           }
         });
 
-        // Hamburger toggle
+        // Hamburger
         const hamburger = document.getElementById("hamburger");
         const navbar = document.querySelector(".navbar");
         hamburger.addEventListener("click", function() {
@@ -115,32 +108,56 @@
 
         // Language toggle
         const langBtn = document.getElementById("lang-toggle");
-        langBtn.addEventListener("click", function() {
-          const currentUrl = window.location.pathname;
-          let newUrl;
+        const currentPath = window.location.pathname;
 
-          if (currentUrl.includes("/es/") || currentUrl.endsWith("/es")) {
-            // Spanish → English
-            newUrl = currentUrl.replace(/\/es\/?$/, "/");
-            langBtn.textContent = "ES";
+        // Detect if we're in Spanish based on `/es/` in the subdirectory
+        const isSpanish = currentPath.match(/\/[^/]+\/es\/?$/);
+
+        // Label the toggle
+        langBtn.textContent = isSpanish ? "EN" : "ES";
+
+        langBtn.addEventListener("click", function () {
+          let newPath;
+          if (isSpanish) {
+            // Go to English: remove `/es` from end of path
+            newPath = currentPath.replace(/\/es\/?$/, "/");
           } else {
-            // English → Spanish
-            if (currentUrl.endsWith("/")) {
-              newUrl = currentUrl + "es/";
+            // Go to Spanish: append `/es/` at the end of the current subdirectory
+            if (currentPath.endsWith("/")) {
+              newPath = currentPath + "es/";
             } else {
-              newUrl = currentUrl + "/es/";
+              newPath = currentPath + "/es/";
             }
-            langBtn.textContent = "EN";
           }
-
-          window.location.href = newUrl;
+          window.location.href = newPath;
         });
 
-        // Initialize button label based on URL
-        if (window.location.pathname.includes("/es/") || window.location.pathname.endsWith("/es")) {
-          langBtn.textContent = "EN";
-        } else {
-          langBtn.textContent = "ES";
+        // Update navbar text/links if Spanish
+        if (isSpanish) {
+          document.querySelector(".brand").textContent = "Inicio";
+
+          const dropbtns = document.querySelectorAll(".dropbtn");
+          dropbtns[0].textContent = "Proyectos ▼";
+          dropbtns[1].textContent = "No relacionado ▼";
+
+          const links = document.querySelectorAll(".dropdown-content a");
+
+          // Update links and text
+          const translations = [
+            { text: "Soporte de pared Aruba 205H", path: "/aruba/es/" },
+            { text: "Reconstrucción y desarme de motores", path: "/engines/es/" },
+            { text: "Coche RC impreso en 3D", path: "/rc/es/" },
+            { text: "Proyectos futuros", path: "/future/es/" },
+            { text: "Sobre mí", path: "/about/es/" },
+            { text: "Enlaces útiles", path: "/links/es/" }
+          ];
+
+          links.forEach((link, i) => {
+            if (translations[i]) {
+              link.textContent = translations[i].text;
+              link.href = translations[i].path;
+            }
+          });
         }
       });
     </script>
