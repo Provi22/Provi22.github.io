@@ -35,8 +35,14 @@ I couldn't rebuild this second engine. It's a 2.4 liter, 18 valve SOHC V6, with 
 
 ![M112_Finished](../assets/engines/M112_finished.jpg)
 
-
 --- 
+
+## Manual transmission rebuild
+I kind of knew how manual transmissions work, but there were some things that I didn't completely comprehend, like how the synchros worked. I had a general idea, but the details weren't clear to me. As a result, I decided to rebuild a 5-speed manual transmission from a Seat 127. The process went surprisingly easy and smooth, and it helped me understand those parts much better. It was satisfying to see everything come together and work as it should.
+
+<img src="../assets/engines/Gearbox.jpeg" alt="Gearbox" width="325"> <img src="../assets/engines/Gearbox_open.jpg" alt="Gearbox_open" width="475">
+
+---
 
 ## Engine Simulator
 I became obsessed with <a href="https://www.youtube.com/@AngeTheGreat" target="_blank" rel="noopener noreferrer">AngeTheGreat</a>'s Engine Simulator, and messing around with community-made engines, I couldn't find anyone who had made a proper representation of the Mazda MX-5 NA engine. So I decided to try to code it myself, it couldn't be so difficult, could it? (It kind of was, since I couldn't find any tutorials on how to code an engine on this simulator) Why the MX-5? Well, I just really like the car, and I wanted it to be my project car before they got outrageously expensive.
