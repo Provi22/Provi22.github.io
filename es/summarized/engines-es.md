@@ -19,7 +19,7 @@ Hasta ahora he rearmado un motor y desarmado otro.
 ## Volkswagen 6N1
 El primer motor que rearmé: un 4 cilindros de 1.4L, 8v SOHC, de un VW Polo Mk3. Estaba incompleto y en mal estado (faltaban piezas, juntas rotas, tornillos cambiados por otros distintos), así que no lo hice funcionar, pero fue perfecto para aprender a rearmar un motor.
 
-<img src="../../assets/engines/6N.jpeg" alt="6N" width="400">  <img src="../../assets/engines/6N1.jpeg" alt="6N1" width="400">
+<img src="/assets/engines/6N.jpeg" alt="6N" width="400">  <img src="/assets/engines/6N1.jpeg" alt="6N1" width="400">
 
 ![6N1\_torn](../../assets/engines/6N1_torn.jpg)
 
@@ -28,7 +28,7 @@ El primer motor que rearmé: un 4 cilindros de 1.4L, 8v SOHC, de un VW Polo Mk3.
 ## Mercedes-Benz M112
 Un V6 SOHC de 2.4L con 3 válvulas y 2 bujías por cilindro. Se veía bien aparte de un agujero en el cárter, y de que faltaban el volante de inercia y la tapa de aceite. Empecé a desarmarlo, pero necesitaba herramientas específicas de Mercedes para las culatas y la cadena de distribución, así que volví a armar las piezas en buen estado y lo devolví al desguace.
 
-<img src="../../assets/engines/M112_junkyard.jpg" alt="M112_junkyard" width="400"> <img src="../../assets/engines/M112.jpg" alt="M112" width="425">
+<img src="/assets/engines/M112_junkyard.jpg" alt="M112_junkyard" width="400"> <img src="/assets/engines/M112.jpg" alt="M112" width="425">
 
 ![M112\_Finished](../../assets/engines/M112_finished.jpg)
 
