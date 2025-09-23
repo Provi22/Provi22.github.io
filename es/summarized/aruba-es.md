@@ -25,16 +25,16 @@ Utilizando Fusion 360, modelé un nuevo soporte con:
 Iteré a través de varios prototipos, empezando con los conectores:
 
 V1:
-<img src="{{ site.baseurl }}assets/aruba/hooks1.jpg" alt="hooks1" width="400">
+<img src="/assets/aruba/hooks1.jpg" alt="hooks1" width="400">
 
 V2:
-<img src="{{ site.baseurl }}assets/aruba/hooks2.jpg" alt="hooks2" width="400">
+<img src="{{ site.baseurl }}/assets/aruba/hooks2.jpg" alt="hooks2" width="400">
 
-<img src="{{ site.baseurl }}assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="{{ site.baseurl }}assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
+<img src="{{ site.baseurl }}/assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="{{ site.baseurl }}/assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Luego, probé la alineación de los conectores con estas placas:
 
-<img src="{{ site.baseurl }}assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="{{ site.baseurl }}assets/aruba/hooks4.jpg" alt="hooks4" width="400">
+<img src="{{ site.baseurl }}/assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="{{ site.baseurl }}/assets/aruba/hooks4.jpg" alt="hooks4" width="400">
 
 Finalmente, imprimí un prototipo completo en PLA en la Ender 5 del colegio.
 
@@ -53,8 +53,8 @@ El diseño ha pasado por 17 pequeñas revisiones. Cambiamos de PLA a ASA (mejor 
 # Descargas
 Este proyecto es open-source para que otros puedan imprimirlo on modificarlo directamente
 
-<a href="{{ site.baseurl }}assets/aruba/Aruba_205H_wall_support.stl" class="button" download> STL Download </a>
+<a href="{{ site.baseurl }}/assets/aruba/Aruba_205H_wall_support.stl" class="button" download> STL Download </a>
 
-<a href="{{ site.baseurl }}assets/aruba/Aruba_205H_wall_support.f3d" class="button" download> Fusion 360 file Download </a>
+<a href="{{ site.baseurl }}/assets/aruba/Aruba_205H_wall_support.f3d" class="button" download> Fusion 360 file Download </a>
 
 _© 2024. Este trabajo está licenciado abiertamente via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>_
