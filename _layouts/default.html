@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
   <meta charset="UTF-8">
   {% seo %}
@@ -30,19 +30,15 @@
 
   <main id="content" class="main-content" role="main">
     {{ content }}
-
   </main>
 
   <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Make sure we have trailing slash
     let currentPath = window.location.pathname;
     if (!currentPath.endsWith("/")) currentPath += "/";
 
-    // Spanish if:
-    //   a) root Spanish homepage: "/es/"
-    //   b) any subdirectory + "es/" at end, e.g. "/aruba/es/"
-    const isSpanish = currentPath === "/es/" || currentPath.match(/^\/[^/]+\/es\/$/);
+    // Detect Spanish if URL ends with "/es/" inside any directory or is exactly "/es/"
+    const isSpanish = /\/es\/$/.test(currentPath);
 
     const navbar = document.getElementById("navbar");
 
@@ -78,7 +74,6 @@
     const lang = isSpanish ? "es" : "en";
     const t = navData[lang];
 
-    // Build navbar
     navbar.innerHTML = `
       <div class="nav-left">
         <a href="${ isSpanish ? '/es/' : '/' }" class="brand">${t.brand}</a>
@@ -109,29 +104,15 @@
     `;
 
     // Language toggle
-    const langBtn = document.getElementById("lang-toggle");
-    langBtn.addEventListener("click", function() {
-      let newPath = currentPath;
-
+    document.getElementById("lang-toggle").addEventListener("click", function() {
+      let newPath;
       if (isSpanish) {
-        // Spanish → English
-        if (currentPath === "/es/") {
-          newPath = "/";
-        } else {
-          newPath = currentPath.replace(/\/es\/$/, "/");
-        }
+        // remove the trailing /es/
+        newPath = currentPath.replace(/\/es\/$/, "/");
       } else {
-        // English → Spanish
-        if (currentPath === "/") {
-          newPath = "/es/";
-        } else {
-          // Avoid double es if somehow present
-          if (!currentPath.endsWith("es/")) {
-            newPath = currentPath + "es/";
-          }
-        }
+        // add /es/ to the end of the current directory
+        newPath = currentPath + "es/";
       }
-
       window.location.href = newPath;
     });
 
@@ -149,9 +130,7 @@
 
     window.addEventListener("click", function(e) {
       if (!e.target.matches(".dropbtn")) {
-        navbar.querySelectorAll(".dropdown-content").forEach(m => {
-          m.classList.remove("show");
-        });
+        navbar.querySelectorAll(".dropdown-content").forEach(m => m.classList.remove("show"));
       }
     });
 

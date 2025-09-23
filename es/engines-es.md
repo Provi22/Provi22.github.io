@@ -6,7 +6,7 @@ permalink: /engines/es/
 # Revisión y despiece de motores
 ---
 
-<a href="/engines/sm/" class="button"> Lee la versión resumida aquí</a>
+<a href="/engines/sm/es/" class="button"> Lee la versión resumida aquí</a>
 
 ---
 
