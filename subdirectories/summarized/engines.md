@@ -37,7 +37,7 @@ A 2.4L SOHC V6 with 3 valves and 2 spark plugs per cylinder. It looked fine apar
 ## Manual transmission rebuild
 I kind of knew how manual transmissions work, but there were some things that I didn't completely comprehend, like how the synchros worked. I had a general idea, but the details weren't clear to me. As a result, I decided to rebuild a 5-speed manual transmission from a Seat 127. The process went surprisingly easy and smooth, and it helped me understand those parts much better. It was satisfying to see everything come together and work as it should.
 
-<img src="../assets/engines/Gearbox.jpeg" alt="Gearbox" width="325"> <img src="../assets/engines/Gearbox_open.jpg" alt="Gearbox_open" width="475">
+<img src="../../assets/engines/Gearbox.jpeg" alt="Gearbox" width="325"> <img src="../../assets/engines/Gearbox_open.jpg" alt="Gearbox_open" width="475">
 
 ---
 
