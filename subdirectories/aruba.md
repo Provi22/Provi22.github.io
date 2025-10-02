@@ -60,7 +60,7 @@ The design has gone through several yet small revisions (17 to be exact), althou
 
 Final product:
 
-<img src="/assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="/assets/aruba/aruba_final2.jpg" alt="aruba final2" width="400"> <img src="/assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
+<img src="/assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="/assets/aruba/aruba_final_2.jpg" alt="aruba final2" width="400"> <img src="/assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
 
 ---
 
