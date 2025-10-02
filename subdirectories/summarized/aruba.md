@@ -48,6 +48,12 @@ Here are Fusion 360 previews and an early technical drawing:
 
 The design has gone through 17 small revisions. We switched from PLA to ASA (better heat resistance) and upgraded to a Bambulab X1 Carbon for improved quality.
 
+Final product: 
+
+<img src="../../assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="../../assets/aruba/aruba_final_2.jpg" alt="aruba final 2" width="400"> 
+
+<img src="../../assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
+
 ---
 # Downloads
 This project is open-source so others can print or modify it directly.

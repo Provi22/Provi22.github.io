@@ -38,15 +38,21 @@ Luego, probé la alineación de los conectores con estas placas:
 
 Finalmente, imprimí un prototipo completo en PLA en la Ender 5 del colegio.
 
-(Insertar imagen del producto final)
+(Insertar imagen del prototipo final)
 
 Aquí se muestran las vistas previas en Fusion 360 y un dibujo técnico inicial:
-
-El diseño ha pasado por 17 pequeñas revisiones. Cambiamos de PLA a ASA (mejor resistencia al calor) y actualizamos a una Bambulab X1 Carbon para mejorar la calidad.
 
 ![drawing](../../assets/aruba/fusion-aruba.png)
 
 ![drawing](../../assets/aruba/technical_drawing.png)
+
+El diseño ha pasado por 17 pequeñas revisiones. Cambiamos de PLA a ASA (mejor resistencia al calor) y actualizamos a una Bambulab X1 Carbon para mejorar la calidad.
+
+Producto final:
+
+<img src="/assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="/assets/aruba/aruba_final_2.jpg" alt="aruba final 2" width="400"> 
+
+<img src="/assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
 
 ---
 

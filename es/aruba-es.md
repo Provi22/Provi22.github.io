@@ -46,7 +46,7 @@ Lo siguiente que hice fue imprimir dos placas frontales para verificar la alinea
 
 Por último, imprimí un prototipo completo en PLA, utilizando la Ender 5 del colegio.
 
-(Insertar imagen del producto final)
+(Insertar imagen del prototipo final)
 
 Aquí hay algunas fotos del diseño dentro de Fusion 360 y el dibujo técnico que realicé (este es de una versión más vieja) para una presentación al director del colegio, en la que obtuve la aprobación para continuar con el proyecto.
 
@@ -56,6 +56,12 @@ Aquí hay algunas fotos del diseño dentro de Fusion 360 y el dibujo técnico qu
 
 
 El diseño ha pasado por varias pequeñas revisiones (17 para ser exactos), aunque la filosofía del diseño ha segido igual. Actualmente hemos cambiado a ASA en lugar de PLA, ya que los primeros prototipos instalados empezaron a derretirse en el primer mes de uso. El ASA tiene una temperatura de fusión más alta, lo cual es ideal para este proyecto. Además, hemos cambiado nuestra impresora 3D por la Bambulab X1 Carbon, lo que ha resultado en una mejora significante en la calidad de las impresiones y menos fallos de impresión.
+
+Producto final: 
+
+<img src="/assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="/assets/aruba/aruba_final_2.jpg" alt="aruba final 2" width="400"> 
+
+<img src="/assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
 
 ---
 
