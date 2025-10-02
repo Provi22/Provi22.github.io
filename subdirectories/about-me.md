@@ -27,8 +27,8 @@ One afternoon, my grandfather showed me his collection of old tools and told me 
 
 ![Tool_collection](../assets/other/Tools6.jpg)
 
-<img src="../assets/other/Tools1.jpg" alt="wrench" width="400"> <img src="../assets/other/Tools2.jpg" alt="overall" width="400">
+<img src="/assets/other/Tools1.jpg" alt="wrench" width="400"> <img src="/assets/other/Tools2.jpg" alt="overall" width="400">
 
 ![Leveler](../assets/other/Tools4.jpg)
 
-<img src="../assets/other/Tools5.jpg" alt="Sockets" width="400"> <img src="../assets/other/Tools3.jpg" alt="clamp" width="400">
+<img src="/assets/other/Tools5.jpg" alt="Sockets" width="400"> <img src="/assets/other/Tools3.jpg" alt="clamp" width="400">

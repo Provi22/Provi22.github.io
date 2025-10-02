@@ -35,16 +35,16 @@ Finally, I hollowed out areas that didn’t contribute to structural integrity o
 To put the design to the test, I first 3D printed several iterations of the connectors up until they clicked right.
 
 V1:
-<img src="../assets/aruba/hooks1.jpg" alt="hooks1" width="400">
+<img src="/assets/aruba/hooks1.jpg" alt="hooks1" width="400">
 
 V2: 
-<img src="../assets/aruba/hooks2.jpg" alt="hooks2" width="400">
+<img src="/assets/aruba/hooks2.jpg" alt="hooks2" width="400">
 
-<img src="../assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="../assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
+<img src="/assets/aruba/hooks2_1.jpg" alt="hooks2_1" width="400"> <img src="/assets/aruba/hooks2_2.jpg" alt="hooks2_2" width="400">
 
 Next up, I printed two face plates to check for the alignment of the connectors, on the first one I had to trim the square area because I didn't account for it.
 
-<img src="../assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="../assets/aruba/hooks4.jpg" alt="hooks4" width="400">
+<img src="/assets/aruba/hooks3.jpg" alt="hooks3" width="400"> <img src="/assets/aruba/hooks4.jpg" alt="hooks4" width="400">
 
 Ultimately, I printed a whole prototype on PLA, on the school's Ender 5.
 
@@ -60,7 +60,7 @@ The design has gone through several yet small revisions (17 to be exact), althou
 
 Final product:
 
-<img src="../assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="../assets/aruba/aruba_final2.jpg" alt="aruba final2" width="400"> <img src="../assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
+<img src="/assets/aruba/aruba_final.jpg" alt="aruba final" width="400"> <img src="/assets/aruba/aruba_final2.jpg" alt="aruba final2" width="400"> <img src="/assets/aruba/aruba_final_open.jpg" alt="aruba final open" width="400">
 
 ---
 
@@ -68,8 +68,8 @@ Final product:
 I wanted to make this project open-source so that any institution with the same specific problem can skip the design and tinkering part and go straight to printing and replacing the wall mounts.
 Here I've included the downloads for the STL file (Straight to 3D printing) and the Fusion 360 file (For further modifications).
 
-<a href="../assets/aruba/Aruba_205H_wall_support.stl" class="button" download>STL Download</a>
+<a href="/assets/aruba/Aruba_205H_wall_support.stl" class="button" download>STL Download</a>
 
-<a href="../assets/aruba/Aruba_205H_wall_support.f3d" class="button" download>Fusion 360 file Download</a>
+<a href="/assets/aruba/Aruba_205H_wall_support.f3d" class="button" download>Fusion 360 file Download</a>
 
 _© 2024. This work is openly licensed via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>_
