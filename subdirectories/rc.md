@@ -13,9 +13,22 @@ I wanted to create a drift RC car on my own from scratch. The goal was to build 
 ---
 
 ## Electrical circuit diagrams
-_This project is currently unfinished, therefore I can't share any finished progress_
+The idea was to create a fully custom circuit, controlled by a single ESP32, using PWM to control the 12V DC motor. Since I didn't have the right transistor to do so, I finally opted to control the DC motor using a <a href="https://spurqlabs.com/controlling-dc-motors-with-arduino-using-the-l298n-motor-driver-for-iot-automation/" target="_blank" rel="noopener noreferrer">L298N Drive module</a>. The code for the WiFi network and the servo motor was done by <a href="https://remotexy.com/en/editor/" target="_blank" rel="noopener noreferrer">Remote XY</a>.
+
+Diagram:
+
+![drawing](../assets/rc/diagram.jpg)
+
+Code: _Incomplete_
 
 ---
 
 ## Final Result
-_This project is currently unfinished, therefore I can't share any finished progress_
+_This project is currently incomplete, therefore I can't share any finished progress_
+
+--- 
+
+## Axle Shaft side project
+My cousin, who owns an RC car, broke both front axles, and asked me to fix them. Using Fusion 360, I designed and 3D printed some replacement parts, which were designed to be assembled using only 3 parts, and a cut paperclip.
+
+<img src="/assets/rc/Axles_1.jpg" alt="Axles 1" width="400"> <img src="/assets/rc/Axles_2.jpg" alt="Axles 2" width="400">
