@@ -46,7 +46,7 @@ Lo siguiente que hice fue imprimir dos placas frontales para verificar la alinea
 
 Por último, imprimí un prototipo completo en PLA, utilizando la Ender 5 del colegio.
 
-(Insertar imagen del prototipo final)
+![drawing](../assets/aruba/aruba_prototype.jpg)
 
 Aquí hay algunas fotos del diseño dentro de Fusion 360 y el dibujo técnico que realicé (este es de una versión más vieja) para una presentación al director del colegio, en la que obtuve la aprobación para continuar con el proyecto.
 

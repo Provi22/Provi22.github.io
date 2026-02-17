@@ -38,7 +38,7 @@ Luego, probé la alineación de los conectores con estas placas:
 
 Finalmente, imprimí un prototipo completo en PLA en la Ender 5 del colegio.
 
-(Insertar imagen del prototipo final)
+![drawing](../assets/aruba/aruba_prototype.jpg)
 
 Aquí se muestran las vistas previas en Fusion 360 y un dibujo técnico inicial:
 

@@ -48,7 +48,7 @@ Next up, I printed two face plates to check for the alignment of the connectors,
 
 Ultimately, I printed a whole prototype on PLA, on the school's Ender 5.
 
-(Insert image of final prototype)
+![drawing](../assets/aruba/aruba_prototype.jpg)
 
 Here are some pictures of the design inside of Fusion 360 and the technical drawing I made (this one being a bit outdated) for a presentation to the school's headteacher, in which I got approval for continuing with the project.
 

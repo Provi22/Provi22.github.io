@@ -38,7 +38,7 @@ Then I tested alignment with face plates:
 
 Finally, I printed a full PLA prototype on the school’s Ender 5.  
 
-(Insert image of final product)
+![drawing](../assets/aruba/aruba_prototype.jpg)
 
 Here are Fusion 360 previews and an early technical drawing:
 
