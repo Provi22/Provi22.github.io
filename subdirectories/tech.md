@@ -47,7 +47,7 @@ Manages disks and partitions directly from the Windows command line, giving you 
 
 
 ```
-chkdisk
+chkdsk
 ```
 Checks and fixes disk errors and file system issues. Learn how to use it <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/chkdsk?tabs=hdd%2Cevent-viewer" target="_blank" rel="noopener noreferrer">here</a>.
 

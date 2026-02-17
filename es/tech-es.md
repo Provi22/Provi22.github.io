@@ -48,7 +48,7 @@ Gestiona discos y particiones directamente desde la línea de comandos de Window
 
 
 ```
-chkdisk
+chkdsk
 ```
 Verifica y corrige errores del disco y problemas del sistema de archivos. Aprende a usarlo <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/chkdsk?tabs=hdd%2Cevent-viewer" target="_blank" rel="noopener noreferrer">aquí</a>.
 
